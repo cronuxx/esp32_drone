@@ -1,0 +1,10 @@
+2.2 uF 0603 metrik https://www.e-komponent.com/ceramic-capacitor-tmk107abj225ka-t
+0.1 uF 0805 metrik https://www.e-komponent.com/cl21b104kbfnnng-samsung-ceramic-capacitor
+10 nF 0603 etrik https://www.e-komponent.com/10000-pf-ceramic-capacitor-c0603c103k1racauto
+2.2 nF 0805 https://www.e-komponent.com/2200-pf-ceramic-capacitor-885012207062
+LED SMD 0805 https://www.e-komponent.com/ltst-c171kgkt-lite-on-led-gosterge-ayrik
+100k Direnç 0603 https://www.e-komponent.com/100-kohms-chip-resistor-ac0603jr-07100kl
+16.5k Diren. 1206 https://www.e-komponent.com/165-kohms-chip-resistor-rc1206fr-0716k5l
+10k direnç 0805 https://www.e-komponent.com/10-kohms-5-0125w-1-8w-chip-resistor-0805-2012-metric-thick-film
+220 direnç 0805 https://www.e-komponent.com/chip-resistor-moisture-resistant-thick-film-18510
+100 direnç 0603 https://www.e-komponent.com/100-ohms-chip-resistor-wr06x1000ftl
