@@ -616,6 +616,158 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EE_DIODE:EE_UF4007"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "UF4007"
+				(at -7.112 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EE_UF4007_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "EE_UF4007_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EE_RESISTOR:EE_RES_1/4W_THT"
 			(pin_numbers
 				(hide yes)
@@ -2828,6 +2980,12 @@
 		(uuid "36e572f7-4bc1-4314-9529-7f0ddf97ba4f")
 	)
 	(junction
+		(at 59.69 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4297dd0a-5854-41a9-bf3f-ae3c21e80044")
+	)
+	(junction
 		(at 123.19 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2838,6 +2996,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b3c6675-2b43-4a13-824e-acf33c534682")
+	)
+	(junction
+		(at 124.46 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d55dde8-28ab-47ad-b5cd-8cbd9681ca6c")
 	)
 	(junction
 		(at 251.46 67.31)
@@ -2856,6 +3020,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "725db649-4785-407b-a2ec-683b65e879f7")
+	)
+	(junction
+		(at 59.69 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73d9eb9d-773b-4f43-bb14-c7d14115e5e5")
+	)
+	(junction
+		(at 124.46 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89516cee-207e-4938-a313-5f29797bac3a")
 	)
 	(junction
 		(at 104.14 85.09)
@@ -2917,6 +3093,30 @@
 		(color 0 0 0 0)
 		(uuid "be383618-4534-4fc3-8922-ca1e0c6edaef")
 	)
+	(junction
+		(at 59.69 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c676bd81-b8d6-49ba-973f-699bb1f12cd1")
+	)
+	(junction
+		(at 59.69 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9fad59d-b8e5-44c1-88d2-a7d27583ae42")
+	)
+	(junction
+		(at 59.69 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5174a2a-26a7-40a0-9f89-5621889fce8e")
+	)
+	(junction
+		(at 59.69 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f425137f-cc61-48c6-8e6e-f2599aa956fc")
+	)
 	(no_connect
 		(at 212.09 120.65)
 		(uuid "2472e972-e98d-4d60-b66a-ae446273dbcd")
@@ -2971,7 +3171,17 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 57.15) (xy 59.69 48.26)
+			(xy 73.66 99.06) (xy 73.66 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0389854c-00fc-4308-bd66-5c7f8abe76dd")
+	)
+	(wire
+		(pts
+			(xy 59.69 57.15) (xy 59.69 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3021,6 +3231,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 105.41) (xy 59.69 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c37f425-04b4-42e0-bfa5-b10bf3fb6f7e")
+	)
+	(wire
+		(pts
 			(xy 87.63 173.99) (xy 92.71 173.99)
 		)
 		(stroke
@@ -3048,6 +3268,16 @@
 			(type default)
 		)
 		(uuid "0fe1da77-1f2a-4f8b-90bb-c68b8a045ef9")
+	)
+	(wire
+		(pts
+			(xy 73.66 50.8) (xy 59.69 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1461e0f4-cf86-4d22-99ba-b836e1f26b38")
 	)
 	(wire
 		(pts
@@ -3081,7 +3311,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 110.49) (xy 59.69 101.6)
+			(xy 59.69 110.49) (xy 59.69 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3118,6 +3348,16 @@
 			(type default)
 		)
 		(uuid "1f094671-4043-4a6e-9d36-cb081c0c836d")
+	)
+	(wire
+		(pts
+			(xy 59.69 88.9) (xy 73.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c585d3-c91e-494a-87cc-8aba5814615c")
 	)
 	(wire
 		(pts
@@ -3191,6 +3431,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 50.8) (xy 59.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b38382-7965-4284-bb3b-6de86d929538")
+	)
+	(wire
+		(pts
 			(xy 176.53 128.27) (xy 171.45 128.27)
 		)
 		(stroke
@@ -3241,13 +3491,43 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 33.02) (xy 59.69 38.1)
+			(xy 124.46 36.83) (xy 124.46 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a2e686-a96a-4df4-93c9-379f15a28f28")
+	)
+	(wire
+		(pts
+			(xy 59.69 105.41) (xy 59.69 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a94d1c-8347-422a-8c05-51b459e57999")
+	)
+	(wire
+		(pts
+			(xy 59.69 33.02) (xy 59.69 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "450732df-7eb3-4e32-a0a9-75ee344f48d2")
+	)
+	(wire
+		(pts
+			(xy 73.66 40.64) (xy 73.66 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4718a528-432a-487c-a264-b83b5d995c8c")
 	)
 	(wire
 		(pts
@@ -3311,6 +3591,26 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 161.29) (xy 59.69 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5593082c-a76e-46ad-bb91-f7bf1f7ed4e9")
+	)
+	(wire
+		(pts
+			(xy 73.66 93.98) (xy 73.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593d03e6-feb1-491f-8177-046ba2fade8d")
+	)
+	(wire
+		(pts
 			(xy 119.38 115.57) (xy 119.38 121.92)
 		)
 		(stroke
@@ -3341,6 +3641,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 156.21) (xy 73.66 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dac3054-a586-49ed-b5d7-ce942103abc5")
+	)
+	(wire
+		(pts
 			(xy 43.18 43.18) (xy 52.07 43.18)
 		)
 		(stroke
@@ -3348,6 +3658,16 @@
 			(type default)
 		)
 		(uuid "5de586b4-ee86-4017-90c0-68a121b81dd5")
+	)
+	(wire
+		(pts
+			(xy 138.43 45.72) (xy 138.43 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61359d3d-8516-4fcb-b2fd-f07ec3a74480")
 	)
 	(wire
 		(pts
@@ -3381,6 +3701,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 49.53) (xy 138.43 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69310e83-4c70-43e8-960b-1606a8e99b04")
+	)
+	(wire
+		(pts
 			(xy 171.45 120.65) (xy 171.45 128.27)
 		)
 		(stroke
@@ -3391,7 +3721,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 142.24) (xy 59.69 147.32)
+			(xy 59.69 142.24) (xy 59.69 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3438,6 +3768,26 @@
 			(type default)
 		)
 		(uuid "73bf29d2-0a83-43dc-bfff-0c200e9a115c")
+	)
+	(wire
+		(pts
+			(xy 138.43 40.64) (xy 138.43 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ec323f-67cf-495a-81d7-15dcc6e6bc9f")
+	)
+	(wire
+		(pts
+			(xy 124.46 49.53) (xy 124.46 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a54e64-83f8-4834-97b9-79e72f01c78f")
 	)
 	(wire
 		(pts
@@ -3491,6 +3841,36 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 35.56) (xy 59.69 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8367d858-0b3f-4800-a64d-051b7b76853a")
+	)
+	(wire
+		(pts
+			(xy 138.43 36.83) (xy 124.46 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ab4eb3-f848-41bb-94e1-65a06d7a5377")
+	)
+	(wire
+		(pts
+			(xy 59.69 144.78) (xy 59.69 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d34e9d-ad7f-44d5-9912-c4cccf97c3d3")
+	)
+	(wire
+		(pts
 			(xy 34.29 96.52) (xy 43.18 96.52)
 		)
 		(stroke
@@ -3528,6 +3908,16 @@
 			(type default)
 		)
 		(uuid "8e61fa1b-fb0f-4e84-8f58-9e96105ce04f")
+	)
+	(wire
+		(pts
+			(xy 73.66 151.13) (xy 73.66 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eeada7a-1054-4a06-a568-ee1c81ffb9c8")
 	)
 	(wire
 		(pts
@@ -3601,7 +3991,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 86.36) (xy 59.69 91.44)
+			(xy 59.69 86.36) (xy 59.69 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3628,6 +4018,16 @@
 			(type default)
 		)
 		(uuid "a6646107-7bcf-4a51-86eb-6d0a64e6c16f")
+	)
+	(wire
+		(pts
+			(xy 59.69 35.56) (xy 59.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e78525-c75d-441a-b2d7-90b1c07f0be7")
 	)
 	(wire
 		(pts
@@ -3678,6 +4078,16 @@
 			(type default)
 		)
 		(uuid "af0049ee-3658-4646-87e1-cb14249c3fc8")
+	)
+	(wire
+		(pts
+			(xy 59.69 161.29) (xy 59.69 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17fdc1f-4fc7-4692-b4aa-a7ed0d1bb7cb")
 	)
 	(wire
 		(pts
@@ -3741,7 +4151,17 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 166.37) (xy 59.69 157.48)
+			(xy 73.66 144.78) (xy 59.69 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c09241-85d8-4e76-a5fa-61e4fcc6045c")
+	)
+	(wire
+		(pts
+			(xy 59.69 166.37) (xy 59.69 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3761,6 +4181,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 45.72) (xy 73.66 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22f67c6-8b2c-4da2-a270-93002a5b6981")
+	)
+	(wire
+		(pts
 			(xy 87.63 161.29) (xy 92.71 161.29)
 		)
 		(stroke
@@ -3768,6 +4198,16 @@
 			(type default)
 		)
 		(uuid "d45c6022-7f12-472f-9bd8-d0bb33d592a7")
+	)
+	(wire
+		(pts
+			(xy 59.69 88.9) (xy 59.69 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7429147-871c-41a3-821d-e706293d7b65")
 	)
 	(wire
 		(pts
@@ -3781,7 +4221,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 57.15) (xy 124.46 48.26)
+			(xy 124.46 57.15) (xy 124.46 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3831,7 +4271,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 33.02) (xy 124.46 38.1)
+			(xy 124.46 33.02) (xy 124.46 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4845,6 +5285,76 @@
 		)
 	)
 	(symbol
+		(lib_id "EE_DIODE:EE_UF4007")
+		(at 138.43 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07ebbf51-83f5-49a2-987f-8a809f928dfc")
+		(property "Reference" "D3"
+			(at 140.97 41.6559 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UF4007"
+			(at 140.97 44.1959 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 138.43 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 138.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe9f9266-a8fc-4945-9624-052a2869547f")
+		)
+		(pin "2"
+			(uuid "fa36e849-74af-435e-946c-2e948e8dd251")
+		)
+		(instances
+			(project "esp32_drone"
+				(path "/a4790b96-f2c9-4eee-8ed3-a0ba464964e5"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EE_TERMINAL:EE_SOCKET_01x01")
 		(at 209.55 21.59 0)
 		(mirror y)
@@ -5142,6 +5652,76 @@
 			(project ""
 				(path "/a4790b96-f2c9-4eee-8ed3-a0ba464964e5"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EE_DIODE:EE_UF4007")
+		(at 73.66 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2313977f-245d-40ed-b924-854b54a1dc2d")
+		(property "Reference" "D4"
+			(at 76.2 94.9959 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UF4007"
+			(at 76.2 97.5359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 73.66 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8221c4d8-d665-40b9-a4db-bb5892a159f4")
+		)
+		(pin "2"
+			(uuid "368a359b-cec7-453c-a764-def0c99e3eb3")
+		)
+		(instances
+			(project "esp32_drone"
+				(path "/a4790b96-f2c9-4eee-8ed3-a0ba464964e5"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5700,6 +6280,76 @@
 			(project "esp32_drone"
 				(path "/a4790b96-f2c9-4eee-8ed3-a0ba464964e5"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EE_DIODE:EE_UF4007")
+		(at 73.66 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bbce977-c20c-4334-a283-db477345997e")
+		(property "Reference" "D5"
+			(at 76.2 152.1459 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UF4007"
+			(at 76.2 154.6859 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 73.66 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 73.66 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69ad4b61-0ccb-4063-8e10-d6e72065709e")
+		)
+		(pin "2"
+			(uuid "1669590f-8c3b-4882-b7b9-50ae06938e99")
+		)
+		(instances
+			(project "esp32_drone"
+				(path "/a4790b96-f2c9-4eee-8ed3-a0ba464964e5"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7687,6 +8337,76 @@
 			(project "esp32_drone"
 				(path "/a4790b96-f2c9-4eee-8ed3-a0ba464964e5"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EE_DIODE:EE_UF4007")
+		(at 73.66 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adc57dd2-8b2c-4daf-8772-9cf21f651776")
+		(property "Reference" "D2"
+			(at 76.2 41.6559 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UF4007"
+			(at 76.2 44.1959 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 73.66 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7177442d-1980-477e-a50c-9ffb0d371c68")
+		)
+		(pin "2"
+			(uuid "c967432a-e282-4e57-ae2c-e565dffcdbb1")
+		)
+		(instances
+			(project ""
+				(path "/a4790b96-f2c9-4eee-8ed3-a0ba464964e5"
+					(reference "D2")
 					(unit 1)
 				)
 			)

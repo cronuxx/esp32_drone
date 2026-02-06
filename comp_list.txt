@@ -8,3 +8,5 @@ LED SMD 0805 https://www.e-komponent.com/ltst-c171kgkt-lite-on-led-gosterge-ayri
 10k direnç 0805 https://www.e-komponent.com/10-kohms-5-0125w-1-8w-chip-resistor-0805-2012-metric-thick-film
 220 direnç 0805 https://www.e-komponent.com/chip-resistor-moisture-resistant-thick-film-18510
 100 direnç 0603 https://www.e-komponent.com/100-ohms-chip-resistor-wr06x1000ftl
+ss54 schottky diode https://www.e-komponent.com/diode-schottky-ss54fsh-taiwan-semiconductor-corporation
+https://www.e-komponent.com/diode-50-v
