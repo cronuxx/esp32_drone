@@ -496,7 +496,7 @@
         "priority": 0,
         "schematic_color": "rgb(255, 0, 25)",
         "track_width": 2.0,
-        "via_diameter": 0.6,
+        "via_diameter": 0.8,
         "wire_width": 10
       }
     ],
